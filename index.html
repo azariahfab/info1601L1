@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <title>My First Page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>This is my first website</h1>
+
+        </header>
+
+        <article>
+            <section>
+                <h2>Welcome</h2>
+                <p style="color: red;">Hope you enjoy my dog blog :)</p><br>
+            </section>
+
+           <section>
+                <figure>
+                    <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg" alt="a dog" width="500" height="600">>
+                    <figcaption>Fig 1. A cute pup</figcaption>
+                </figure>
+           </section>
+
+           <section>
+               <details>
+                   <summary>Hobbies</summary>
+                   <ul>
+                    <li>Eat</li>
+                    <li>Sleep</li>
+                    <li>Number two</li>
+                    <li>Eat my owners homework</li>
+                </ul>
+               </details>
+            </section>
+
+            <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
+
+        </article>
+           
+    </body>
+<html>
